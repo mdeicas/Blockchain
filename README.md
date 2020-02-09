@@ -1,5 +1,5 @@
 # Blockchain
-This is a simplified version of a Blockchain in Java. It contains functionality such as mining with Proof-of-Work and verification of transactions with Merkle Trees. 
+This is a simple version of a Blockchain in Java, designed to record and verify transactions. It contains functionality such as mining with Proof-of-Work and verification of transactions with Merkle Trees. 
 
 ## Block
 Block objects contain: 
