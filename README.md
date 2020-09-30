@@ -8,9 +8,13 @@ Block objects contain:
   3. merkle Root of transactions, calculated at time when Block is created 
   4. nonce (the proof of work)
 ## Transactions
-Transactions are stored in an arrayList. A transaction can only be trusted once a block is mined, after the transaction was added. 
+Transactions are stored in a list. A transaction can only be trusted once a block is mined, after the transaction was added. 
 
 The transaction verifier algorithm works by checking if the merkleRoot calculated from the given transaction is equal to the merkleRoot in the latest Block. 
 
 ## Proof-of-Work
-The Proof-of-Work algorithm is based off the Bitcoin proof-of-work. Mining a block entails finding an integer (nonce) that, when hashed with the Block results in a set number of leading zeroes, the Block is created. 
+The Proof-of-Work algorithm is based off the Bitcoin proof-of-work. Mining a block entails finding an integer (nonce) that, when hashed with the Block results in a set number of leading zeroes, the Block is created.  
+
+## Edited?
+Yes
+
