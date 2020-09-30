@@ -15,6 +15,4 @@ The transaction verifier algorithm works by checking if the merkleRoot calculate
 ## Proof-of-Work
 The Proof-of-Work algorithm is based off the Bitcoin proof-of-work. Mining a block entails finding an integer (nonce) that, when hashed with the Block results in a set number of leading zeroes, the Block is created.  
 
-## Edited?
-Yes
 
